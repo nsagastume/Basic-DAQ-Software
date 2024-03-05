@@ -1,0 +1,14 @@
+Based on Bourne's 3590s-2-202L Potentiometer
+From top to base
+    1st Connection - Labeled over a "3" 
+          5V Power Input
+
+    2nd Connection - Labeled in between a "1" and a "3" 
+          Ground Connection
+
+    3rd Connection - Labeled over a "1" 
+          A0 pin or any analog pin using analogRead(pin)
+
+
+Regular Connection should provide an initial voltage of 19
+Need to convert to angle positions of steering wheel based on voltage
